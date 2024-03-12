@@ -10,17 +10,11 @@ export const L2 = {
 	href: "/Dashboards/MainDash",
 };
 
-export const L3 = {
-	key: 3,
-	name: "Blog",
-	href: "/Blog",
-};
-
-export const L1001 = {
-	key: 1001,
-	name: "Analytics",
-	href: "/Analytics",
-};
+// export const L1001 = {
+// 	key: 1001,
+// 	name: "Analytics",
+// 	href: "/Analytics",
+// };
 
 export const L1002 = {
 	key: 1002,

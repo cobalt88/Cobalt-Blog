@@ -4,8 +4,8 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<title>Circle Analytics Blog</title>
-				<meta name="description" content="An analytics blog produced by Circle Logstics Inc to provide market insights and freight industry analytics" />
+				<title>Cobalt Blog</title>
+				<meta name="description" content="The personal blog of Cobalt** AKA Vincent Teune" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

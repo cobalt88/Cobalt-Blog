@@ -13,12 +13,12 @@ export function BaseLayout(props) {
         <meta>{props.meta}</meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar links={status === "authenticated" ? [links.L1, links.L2, links.L3] : [links.L1, links.L3]} dropdownLinks={
+      <NavBar links={status === "authenticated" ? [links.L1, links.L2,] : [links.L1]} dropdownLinks={
         [
           {
             key: 10,
             name: "Archive",
-            links: [links.L1001, links.L1002],
+            links: [links.L1002],
           },
         ]} />
       <main className="min-h-screen">{props.children}</main>

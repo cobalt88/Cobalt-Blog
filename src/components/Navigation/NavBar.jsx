@@ -27,11 +27,12 @@ export default function NavBar(props) {
 	const { data: session, status } = useSession();
 	const links = props.links;
 	const dropDown = props.dropdownLinks;
+	console.log(session);
 	return (
 		<Disclosure as="nav" className="bg-white shadow">
 			{({ open }) => (
 				<>
-					<div className="mx-auto max-w-[1800px] px-2 sm:px-4 lg:px-8">
+					<div className="mx-auto max-w-[2400px] px-2 sm:px-4 lg:px-8">
 						<div className="flex h-16 justify-between">
 							<div className="flex px-2 lg:px-0">
 								<div className="hidden lg:ml-6 lg:flex lg:space-x-8">

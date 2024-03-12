@@ -31,11 +31,10 @@ export async function createPost(req, res) {
 	const data = req.body;
 	try {
 		await client.connect();
-		const db = client.db();
-		const quotesCollection = db.collection("quotes");
-		const result = await quotesCollection.insertOne(data);
+		const db = client.db("blog").collection("posts");
+		const result = await db.insertOne(data);
 		await client.close();
-		res.status(201).json({ message: "Quote created!" });
+		res.status(201).json({ message: "Post created!" });
 	} catch (err) {
 		console.error(err);
 		res.status(500).json({ message: "Internal server error" });

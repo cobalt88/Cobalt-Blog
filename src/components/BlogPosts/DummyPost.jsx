@@ -8,12 +8,12 @@ export function DummyPost() {
   return (
     <>
       <Container>
-        <div className=" max-w-screen-lg m-auto color">
-          <h1 className="flex font-bold text-3xl xl:text-5xl justify-center text-center m-5 mb-10 mt-10 sm:m-0">The future of freight is now</h1>
+        <div className=" max-w-screen-lg m-auto mt-10 ">
+          <h1 className="flex font-bold text-3xl xl:text-5xl justify-center text-center sm:m-0">The future of freight is now</h1>
           {/* <Image src={dataBanner} className=" m-auto mt-2 sm:max-w-lg md:max-w-2xl xl:max-w-5xl "></Image> */}
 
-          <p className="text-sm">Published by Circle Logistics Inc, November 2023</p>
-          <p className='flex justify-center mb-1 mt-2'>
+          <p className="text-sm mb-5 text-center text-gray-400">Published by Cobalt88, November 2023</p>
+          <p className='flex justify-center m-10 indent-5'>
             Freight is complicated. But the data doesnt have to be.
             We take complex data from all over the freight and logistics industry and boil it down to the pieces you need.
           </p>

@@ -12,7 +12,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Sign In - Circle Connect</title>
+        <title>Sign In - Cobalt Blog</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">

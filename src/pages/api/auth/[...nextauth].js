@@ -29,11 +29,8 @@ export default NextAuth({
 			return baseUrl;
 		},
 		async session({ session, token, user }) {
-			const data = await userPermissions(token);
 			session.user.name = token.name;
 			session.user.email = token.email;
-			session.primaryRole = data.PrimaryRole.RoleID;
-			session.secondaryRoles = data.SecondaryRoles.map((role) => role.RoleID);
 			return session;
 		},
 	},
